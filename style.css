@@ -16,7 +16,7 @@ img {
     border: 1px solid lightcoral;
 }
 button {
-    background-color: #3882f6;
+    background-color: lightcoral;
     max-width: 7em;
     padding: 0.6em 1em;
     color: #f9faf8;
@@ -34,7 +34,7 @@ button {
 }
 #headerLogo {
     margin-right: auto;
-    color: #f9faf8;
+    color: lightcoral;
     font-size: 24px;
     font-weight: 900;
 }
@@ -66,6 +66,12 @@ button {
 .main.second {
     flex-direction: column;
     justify-content: center;
+    /*background-image: url(./images/pink-sky.webp);
+    background-size: 100vw;
+    background-repeat: no-repeat;*/
+    border-top: 0.5em solid lightcoral;
+    border-bottom: 0.5em solid lightcoral;
+    gap: 6em;
 }
 .second img {
     width: 160px;
@@ -80,12 +86,35 @@ button {
 }
 .horizontalDisplay {
     display: flex;
-    gap: 1em;
+    gap: 5em;
 
 }
 .horizontalDisplay div {
     display: flex;
+    gap: 1em;
     flex-direction: column;
     text-align: center;
     max-width: 160px;
+    color: #1f2937;
+    font-weight: 500;
+}
+
+.main.third {
+    background-color: #e5e7eb;
+    padding: 3em 20em;
+}
+#quote {
+    font-size: 36px;
+    font-family: 'Optima', 'Garamond', serif;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+    display: flex;
+    flex-direction: column;
+}
+#quoteEnd {
+    font-size: 22px;
+    font-weight: 700;
+    align-self: flex-end;
+    padding: 0.5em 1em;
 }
