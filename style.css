@@ -103,6 +103,7 @@ button {
 .main.third {
     background-color: #e5e7eb;
     padding: 3em 20em;
+    border-bottom: 0.5em solid lightcoral;
 }
 #quote {
     font-size: 36px;
@@ -137,4 +138,12 @@ button {
 .cta {
     font-size: 1.5em;
     font-weight: bold;
+}
+
+.banner.foot {
+    color: lightgray;
+    justify-content: center;
+    align-items: center;
+    padding: 2em;
+    border-top: 1px solid lightcoral;
 }
