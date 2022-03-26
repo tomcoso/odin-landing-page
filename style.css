@@ -43,8 +43,10 @@ button {
     display: flex;
     align-items: center;
     padding: 3em 10em;
-    background-color: #1f2937;
     gap: 2em;
+}
+.main.first {
+    background-color: #1f2937;
 }
 #heroText {
     display: flex;
@@ -55,4 +57,35 @@ button {
     color: #f9faf8;
     font-size: 48px;
     font-weight: 800;
+}
+.sub1 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.main.second {
+    flex-direction: column;
+    justify-content: center;
+}
+.second img {
+    width: 160px;
+    height: 160px;
+    border-radius: 1em;
+}
+#extravagant {
+    font-size: 42px;
+    font-weight: 900;
+    font-family: "Garamond", fantasy;
+    color: #1f2937;
+}
+.horizontalDisplay {
+    display: flex;
+    gap: 1em;
+
+}
+.horizontalDisplay div {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    max-width: 160px;
 }
